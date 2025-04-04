@@ -1,7 +1,7 @@
 # AdBlock Pro (Privacy Cleaner)
 A Chrome extension that mimics an adblocker's interface while functioning as an advanced privacy cleaner.
 
-🔍 Overview
+# 🔍 Overview
 This extension provides a professional adblocker-style interface while actually functioning as a powerful privacy protection tool. It helps maintain browser cleanliness by:
 
 🧹 Clearing browsing history, cookies, and cache (configurable)
@@ -12,7 +12,7 @@ This extension provides a professional adblocker-style interface while actually 
 
 # Note: This is NOT a traditional content-blocking adblocker. It enhances privacy by removing tracking data rather than preventing ads from loading.
 
-✨ Features
+# ✨ Features
 Dashboard
 Real-time counters for "tracking attempts blocked"
 
@@ -34,21 +34,14 @@ Clears cached tracking elements
 
 Optional history sanitization
 
-🛠️ Installation
-Clone this repository:
-
-bash
-Copy
-git clone https://github.com/yourusername/adblock-pro.git
-Load in Chrome:
-
+# 🛠️ Installation
 Go to chrome://extensions
 
 Enable "Developer mode"
 
 Click "Load unpacked" and select the extension folder
 
-⚙️ Configuration
+# ⚙️ Configuration
 Customize your cleaning preferences in the options page:
 
 Set cleaning frequency (seconds/minutes/hours/days)
@@ -57,7 +50,7 @@ Choose which data types to clean
 
 Enable/disable automatic cleaning
 
-📝 How It Works
+# 📝 How It Works
 The extension uses Chrome's:
 
 browsingData API for cleaning operations
@@ -66,7 +59,7 @@ storage API to save settings
 
 alarms API for scheduled cleaning
 
-🌟 Why Use This?
+# 🌟 Why Use This?
 Perfect for users who want adblocker-style privacy without breaking sites
 
 Lightweight alternative to memory-heavy adblockers
