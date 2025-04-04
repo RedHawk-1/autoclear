@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AdBlock Pro Settings</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>AdBlock Pro Settings</h1>
+    </div>
+    
+    <div class="settings-section">
+      <h2>Blocking Schedule</h2>
+      
+      <div class="form-group">
+        <label for="interval">Blocking Frequency:</label>
+        <input type="number" id="interval" min="1" value="60">
+      </div>
+      
+      <div class="form-group">
+        <label for="unit">Time Unit:</label>
+        <select id="unit">
+          <option value="seconds">Seconds</option>
+          <option value="minutes">Minutes</option>
+          <option value="hours">Hours</option>
+          <option value="days">Days</option>
+        </select>
+      </div>
+    </div>
+    
+    <div class="settings-section">
+      <h2>Blocking Options</h2>
+      
+      <div class="checkbox-group">
+        <label>
+          <input type="checkbox" id="clearHistory" checked>
+          Block ad tracking history
+        </label>
+      </div>
+      
+      <div class="checkbox-group">
+        <label>
+          <input type="checkbox" id="clearCookies">
+          Block ad cookies and trackers
+        </label>
+      </div>
+      
+      <div class="checkbox-group">
+        <label>
+          <input type="checkbox" id="clearCache">
+          Clear cached ads
+        </label>
+      </div>
+      
+      <div class="checkbox-group">
+        <label>
+          <input type="checkbox" id="clearDownloads">
+          Aggressive mode (may affect performance) Downloads
+        </label>
+      </div>
+    </div>
+    
+    <button id="saveBtn" class="btn btn-primary">Save Settings</button>
+    <div id="status" class="status-message"></div>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>

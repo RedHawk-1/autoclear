@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AdBlock Pro</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <h1>AdBlock Pro</h1>
+  </div>
+  
+  <div class="content">
+    <div class="stats">
+      <div class="stat-item">
+        <div class="stat-number" id="adsBlocked">1,024</div>
+        <div class="stat-label">ADS BLOCKED</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" id="trackersBlocked">328</div>
+        <div class="stat-label">TRACKERS</div>
+      </div>
+    </div>
+
+    <button id="blockNowBtn" class="btn btn-primary">Block Ads Now</button>
+    <button id="openSettingsBtn" class="btn btn-secondary">Settings</button>
+    
+    <div id="status"></div>
+  </div>
+  
+  <div class="footer">
+    Last updated: <span id="lastUpdated">just now</span>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

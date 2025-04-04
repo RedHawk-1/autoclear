@@ -1,0 +1,114 @@
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #2c3e50;
+  width: 280px;
+  min-height: 200px;
+}
+
+.header {
+  background: linear-gradient(135deg, #4a6bff, #6a11cb);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.content {
+  padding: 15px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.stat-item {
+  text-align: center;
+  flex: 1;
+}
+
+.stat-number {
+  font-size: 20px;
+  font-weight: 700;
+  color: #4a6bff;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #7f8c8d;
+  margin-top: 3px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #4a6bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #3a5bef;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: #4a6bff;
+  border: 1px solid #e0e0e0;
+}
+
+.btn-secondary:hover {
+  background-color: #f5f7ff;
+}
+
+.footer {
+  padding: 10px 15px;
+  border-top: 1px solid #e0e0e0;
+  font-size: 11px;
+  color: #95a5a6;
+  text-align: center;
+}
+
+#status {
+  margin-top: 10px;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 4px;
+  text-align: center;
+  display: none;
+}
+
+.status-success {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  display: block;
+}
+
+.status-error {
+  background-color: #ffebee;
+  color: #c62828;
+  display: block;
+}
