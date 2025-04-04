@@ -25,7 +25,7 @@ Selective cleaning: Choose what to remove (history, cookies, cache, downloads)
 
 Scheduled cleaning: Set intervals from 1 minute to 30 days
 
-Aggressive mode: More thorough cleaning (may impact some site functionality)
+Aggressive mode: More thorough cleaning (may impact some site functionality) Clears Download History
 
 Privacy Protection
 Removes tracking cookies and browsing fingerprints
@@ -59,9 +59,3 @@ storage API to save settings
 
 alarms API for scheduled cleaning
 
-# 🌟 Why Use This?
-Perfect for users who want adblocker-style privacy without breaking sites
-
-Lightweight alternative to memory-heavy adblockers
-
-Great for shared computers where you want to leave no traces
